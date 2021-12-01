@@ -1,40 +1,59 @@
-import React from 'react'
+import React from 'react';
 
-export default function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
-    <>
-      <header>
-        <h1>Nelson Rivera</h1>
-        <nav>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#my-work">My Work</a></li>
-          <li><a href="#contact-me">Contact Me</a></li>
-          <li><a href="https://docs.google.com/document/d/180-G6O_wIBsKqRz9eaGt0i1GBGjzNjYg/edit?usp=sharing&ouid=106707977828245057672&rtpof=true&sd=true" target="_blank">Resume</a></li>
-        </nav>
-      </header>
-    </>
-  )
+    <div className="navbar d-flex p-5 justify-content-between">
+
+      <div className="nav-brand">
+        <h1>
+          Nelson Rivera
+        </h1>
+        <p>
+          Full Stack Developer
+        </p>
+      </div>
+
+      <ul className="nav nav-pills nav-fill col-8">
+        <li className="nav-item">
+          <a
+            href="#about-me"
+            onClick={() => handlePageChange("About")}
+            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+          >
+            About Me
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#portfolio"
+            onClick={() => handlePageChange("Portfolio")}
+            className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+          >
+            Portfolio
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+          >
+            Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  );
 }
 
-// [
-//   {
-//     href: "#aboutme",
-//     title: "About Me",
-//     blank: false,
-//   },
-//   {
-//     href: "#aboutme",
-//     title: "About Me",
-//     blank: false,
-//   },
-//   {
-//     href: "#aboutme",
-//     title: "About Me",
-//     blank: false,
-//   },
-//   {
-//     href: "#aboutme",
-//     title: "About Me",
-//     blank: true,
-//   }
-// ]
+export default Navbar;

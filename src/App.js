@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './components/Navbar';
 import './App.css';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
   return (
-      <Navbar />
+    <PortfolioContainer />
   );
 }
 
