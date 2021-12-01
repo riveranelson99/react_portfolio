@@ -2,6 +2,12 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <h1>Resume</h1>
+    <section className="p-5">
+
+      <h2 className="d-flex justify-content-center">
+        Resume
+      </h2>
+
+    </section>
   )
 }
