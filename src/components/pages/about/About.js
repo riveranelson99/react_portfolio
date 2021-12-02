@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import profile from "../../../images/profile.jpg"
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
       </p> */}
 
       <div className="d-flex justify-content-center p-2">
-        <img src="./assets/244996835_305594117635243_3281901498404681923_n.jpg" height="300px" />
+        <img src={profile} height="300px" />
       </div>
 
       <p className="p-2">

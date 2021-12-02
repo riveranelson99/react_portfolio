@@ -1,0 +1,63 @@
+a {
+  color: black;
+}
+
+.code-quiz {
+  background-image: url(../../../images/port_4_screenshot.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.col-md-12 {
+  width: 91%
+}
+
+.col-md-5 {
+  width: 45%;
+  margin: 5px;
+}
+
+.grid-item {
+  border: 4px solid;
+  grid-column: span 4;
+  min-height: 210px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 25px;
+}
+
+.horiseon {
+  background-image: url(../../../images/port_1_screenshot.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.movie-roulette {
+  background-image: url(../../../images/project-1-screenshot.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  grid-column: span 8;
+  grid-row: span 3;
+}
+
+span {
+  background-color: silver;
+  padding: 0px 40px 0 40px;
+}
+
+.weather-tracker {
+  background-image: url(../../../images/port_6_screenshot.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.work-day-scheduler {
+  background-image: url(../../../images/port_5_screenshot.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
