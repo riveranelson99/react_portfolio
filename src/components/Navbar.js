@@ -1,14 +1,15 @@
 import React from 'react';
+import './Navbar.css'
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <div className="navbar d-flex p-5 justify-content-between">
+    <div id="banner" className="navbar d-flex p-5 justify-content-between">
 
       <div className="nav-brand">
         <h1>
           Nelson Rivera
         </h1>
-        <p>
+        <p id="solo">
           Full Stack Developer
         </p>
       </div>
