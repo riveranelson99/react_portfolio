@@ -8,10 +8,17 @@ export default function Contact() {
         Contact Me
       </h2>
 
-      <li><a target="_blank" href="tel:773-744-9457">773-744-9457</a></li>
-      <li><a target="_blank" href="mailto:riveranelson99@gmail.com">riveranelson99@gmail.com</a></li>
-      <li><a target="_blank" href="https://github.com/riveranelson99">GitHub</a></li>
-      <li><a target="_blank" href="https://www.linkedin.com/in/nelson-rivera-b1413a150/">LinkedIn</a></li>
+      <div className="container">
+        <div className="row d-flex justify-content-center">
+            <a target="_blank" href="tel:773-744-9457" class="col-md-5 btn btn-primary">773-744-9457</a>
+
+            <a target="_blank" href="mailto:riveranelson99@gmail.com" class="col-md-5 btn btn-primary">riveranelson99@gmail.com</a>
+
+            <a target="_blank" href="https://github.com/riveranelson99" class="col-md-5 btn btn-primary">GitHub</a>
+
+            <a target="_blank" href="https://www.linkedin.com/in/nelson-rivera-b1413a150/" class="col-md-5 btn btn-primary">LinkedIn</a>
+        </div>
+      </div>
 
     </section>
   )

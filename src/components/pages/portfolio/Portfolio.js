@@ -31,11 +31,60 @@ export default function Portfolio() {
 
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <a target="_blank" href="https://riveranelson99.github.io/p1_movie_roullete/" className="col-md-12 movie-roulette grid-item" onClick={() => openGrid1()}><span>Movie Roulette Project 1</span></a>
-          <a id="weatherTracker" target="_blank" href="https://riveranelson99.github.io/weather_tracker/" className="col-md-5 weather-tracker grid-item" onClick={() => openGrid2()}><span>Weather Tracker</span></a>
-          <a id="workDay" target="_blank" href="https://riveranelson99.github.io/work_day_scheduler/" className="col-md-5 work-day-scheduler grid-item" onClick={() => openGrid3()}><span>Work Day Scheduler</span></a>
-          <a id="codeQuiz" target="_blank" href="https://riveranelson99.github.io/my_code_quiz/" className="col-md-5 code-quiz grid-item" onClick={() => openGrid4()}><span>Code Quiz</span></a>
-          <a id="horiseon" target="_blank" href="https://riveranelson99.github.io/seo_code_refactor/" className="col-md-5 horiseon grid-item" onClick={() => openGrid5()}><span>Horiseon</span></a>
+          <a
+            target="_blank"
+            href="https://riveranelson99.github.io/p1_movie_roullete/"
+            className="col-md-12 movie-roulette grid-item"
+            onClick={() => openGrid1()}
+            >
+              <span>
+                Movie Roulette Project 1
+              </span>
+          </a>
+
+          <a
+            target="_blank"
+            href="https://riveranelson99.github.io/weather_tracker/"
+            className="col-md-5 weather-tracker grid-item"
+            onClick={() => openGrid2()}
+            >
+              <span>
+                Weather Tracker
+              </span>
+          </a>
+
+          <a
+            target="_blank"
+            href="https://riveranelson99.github.io/work_day_scheduler/"
+            className="col-md-5 work-day-scheduler grid-item"
+            onClick={() => openGrid3()}
+            >
+              <span>
+                Work Day Scheduler
+              </span>
+          </a>
+
+          <a
+            target="_blank"
+            href="https://riveranelson99.github.io/my_code_quiz/"
+            className="col-md-5 code-quiz grid-item"
+            onClick={() => openGrid4()}
+            >
+              <span>
+                Code Quiz
+              </span>
+          </a>
+
+          <a
+            target="_blank"
+            href="https://riveranelson99.github.io/seo_code_refactor/"
+            className="col-md-5 horiseon grid-item"
+            onClick={() => openGrid5()}
+            >
+              <span>
+                Horiseon
+              </span>
+          </a>
         </div>
       </div>
 
