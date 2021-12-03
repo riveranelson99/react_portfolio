@@ -21,3 +21,7 @@ Creating a portfolio utilizing the newly learned react resource.
 ## Screenshot
 
 ![Sample](./assets/port_18_screenshot.png)
+
+## Deployed Application
+
+[Link to deployed app](https://riveranelson99.github.io/react_portfolio/)
