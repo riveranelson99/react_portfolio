@@ -1,7 +1,9 @@
 import React from "react";
 import "./Portfolio.css";
 
+// Set up a function to export my portfolio section of my portfolio
 export default function Portfolio() {
+  // Set up additional functions which are responsible for opening an additional page that links to the appropriate works github repository
   function openGrid1() {
     window.open('https://github.com/riveranelson99/p1_movie_roullete');
   };
@@ -26,6 +28,8 @@ export default function Portfolio() {
     window.open('https://github.com/riveranelson99/tech_blog');
   };
 
+  // Return the work section via grid and have each grid section link to the live deployed app
+  // This in tandem with the previous functions allows for two tabs to open to view my work
   return (
     <section className="p-5">
 

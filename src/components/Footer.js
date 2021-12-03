@@ -1,9 +1,12 @@
+// Import font awesome package in order to utilize their icons for my footer aesthetic
 import React from 'react';
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faConnectdevelop } from '@fortawesome/free-brands-svg-icons'
 
+// Set up function in order to export the footer section of my portfolio
+// Invoke font awesome in this section within anchor tags in order to make the icons themselves interact-able "links"
 function Footer() {
   return (
     <footer className="d-flex justify-content-center">

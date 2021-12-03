@@ -1,5 +1,6 @@
 import React from "react";
 
+// Set up a function to export my contact section of my portfolio
 export default function Contact() {
   return (
     <section className="p-5">
@@ -8,6 +9,7 @@ export default function Contact() {
         Contact Me
       </h2>
 
+      {/* Provide active buttons in which redirect the viewer to the appropriate targets in which they can contact me (phone, email, github, and linkedin) */}
       <div className="container">
         <div className="row d-flex justify-content-center">
             <a target="_blank" href="tel:773-744-9457" className="col-md-5 btn btn-primary">773-744-9457</a>

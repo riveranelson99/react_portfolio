@@ -1,6 +1,9 @@
 import React from 'react';
 import './Navbar.css'
 
+// Set up a function to export the navbar section of my portfolio
+// Primarily utilize the method detailed in a previous activity to bring in the data of current page and handle page change function
+// Set up the entirety of the navbar so that the navigation list is appropriately highlighted depending on where the viewer is currently on in the portfolio
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <div id="banner" className="navbar d-flex p-5 justify-content-between">

@@ -1,6 +1,7 @@
 import React from "react";
 import './Resume.css'
 
+// Set up a function to export the resume section of my portfolio
 export default function Resume() {
   return (
     <section className="p-5">
@@ -8,10 +9,12 @@ export default function Resume() {
         Resume
       </h2>
 
+      {/* provide link to my resume that is located in my google drive to be downloaded or viewed */}
       <p id="resume" className="d-flex justify-content-center">
         <a href="https://docs.google.com/document/d/180-G6O_wIBsKqRz9eaGt0i1GBGjzNjYg/edit?usp=sharing&ouid=106707977828245057672&rtpof=true&sd=true" target="_blank">View my full resume</a>
       </p>
 
+      {/* Provide overall skills as an initial glance that can be further clarified by my resume should the viewer be interested in doing so */}
       <div className="container">
         <div className="row d-flex justify-content-center">
           <section className="col-md-5">
