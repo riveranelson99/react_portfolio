@@ -7,7 +7,7 @@ export default function Portfolio() {
   };
 
   function openGrid2() {
-    window.open('https://github.com/riveranelson99/weather_tracker');
+    window.open('https://github.com/Chris-Franklin-1701/CAN-Do-Translations');
   };
 
   function openGrid3() {
@@ -22,6 +22,10 @@ export default function Portfolio() {
     window.open('https://github.com/riveranelson99/seo_code_refactor');
   };
 
+  function openGrid6() {
+    window.open('https://github.com/riveranelson99/tech_blog');
+  };
+
   return (
     <section className="p-5">
 
@@ -34,23 +38,23 @@ export default function Portfolio() {
           <a
             target="_blank"
             href="https://riveranelson99.github.io/p1_movie_roullete/"
-            className="col-md-12 movie-roulette grid-item"
+            className="col-md-5 movie-roulette grid-item"
             onClick={() => openGrid1()}
-            >
-              <span>
-                Movie Roulette Project 1
-              </span>
+          >
+            <span>
+              Movie Roulette
+            </span>
           </a>
 
           <a
             target="_blank"
-            href="https://riveranelson99.github.io/weather_tracker/"
-            className="col-md-5 weather-tracker grid-item"
+            href="https://agile-chamber-45368.herokuapp.com/"
+            className="col-md-5 can-do-translations grid-item"
             onClick={() => openGrid2()}
-            >
-              <span>
-                Weather Tracker
-              </span>
+          >
+            <span>
+              Can-Do Translations
+            </span>
           </a>
 
           <a
@@ -58,10 +62,10 @@ export default function Portfolio() {
             href="https://riveranelson99.github.io/work_day_scheduler/"
             className="col-md-5 work-day-scheduler grid-item"
             onClick={() => openGrid3()}
-            >
-              <span>
-                Work Day Scheduler
-              </span>
+          >
+            <span>
+              Work Day Scheduler
+            </span>
           </a>
 
           <a
@@ -69,10 +73,10 @@ export default function Portfolio() {
             href="https://riveranelson99.github.io/my_code_quiz/"
             className="col-md-5 code-quiz grid-item"
             onClick={() => openGrid4()}
-            >
-              <span>
-                Code Quiz
-              </span>
+          >
+            <span>
+              Code Quiz
+            </span>
           </a>
 
           <a
@@ -80,10 +84,21 @@ export default function Portfolio() {
             href="https://riveranelson99.github.io/seo_code_refactor/"
             className="col-md-5 horiseon grid-item"
             onClick={() => openGrid5()}
-            >
-              <span>
-                Horiseon
-              </span>
+          >
+            <span>
+              Horiseon
+            </span>
+          </a>
+
+          <a
+            target="_blank"
+            href="https://young-spire-79228.herokuapp.com/"
+            className="col-md-5 tech-blog grid-item"
+            onClick={() => openGrid6()}
+          >
+            <span>
+              Tech Blog
+            </span>
           </a>
         </div>
       </div>

@@ -2,6 +2,12 @@ a {
   color: black;
 }
 
+.can-do-translations {
+  background-image: url(../../../images/project_2_screenshot.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .code-quiz {
   background-image: url(../../../images/port_4_screenshot.png);
   background-size: 100%;
@@ -50,8 +56,8 @@ span {
   padding: 0px 40px 0 40px;
 }
 
-.weather-tracker {
-  background-image: url(../../../images/port_6_screenshot.png);
+.tech-blog {
+  background-image: url(../../../images/port_14_screenshot.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
